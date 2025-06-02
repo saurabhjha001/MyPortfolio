@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh's Journey | Album</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="album-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Album Header -->
+    <header class="album-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-info">
+                    <img src="My Portfolio/img2.jpg" alt="Saurabh Kumar Jha" class="profile-pic">
+                    <div class="profile-details">
+                        <h1>Saurabh Kumar Jha</h1>
+                        <p>My Journey Through Lens</p>
+                    </div>
+                </div>
+                <a href="index.html" class="btn secondary">Back to Portfolio</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Story Highlights -->
+    <section class="story-highlights">
+        <div class="container">
+            <div class="highlights-scroll">
+                <div class="highlight-item">
+                    <div class="highlight-circle">
+                        <img src="My Portfolio/college.jpg" alt="College Life">
+                    </div>
+                    <span>College Life</span>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-circle">
+                        <img src="My Portfolio/hackathons.jpg" alt="Hackathons">
+                    </div>
+                    <span>Hackathons</span>
+                </div>
+                <!-- Add more highlights -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Posts Feed -->
+    <main class="posts-feed">
+        <div class="container">
+            <!-- Post Creation -->
+            <div class="post-create admin-only">
+                <textarea placeholder="Share your story..."></textarea>
+                <div class="post-actions">
+                    <button class="btn primary"><i class="fas fa-image"></i> Add Photo</button>
+                    <button class="btn secondary">Post</button>
+                </div>
+            </div>
+
+            <!-- Posts Grid -->
+            <div class="posts-grid">
+                <!-- Sample Post -->
+                <article class="post-card">
+                    <div class="post-header">
+                        <img src="My Portfolio/img2.jpg" alt="Saurabh" class="author-pic">
+                        <div class="post-info">
+                            <h3>Saurabh Kumar Jha</h3>
+                            <span class="post-date">March 15, 2024</span>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <img src="My Portfolio/grpimg1.jpg" alt="Post Image" class="post-image">
+                        <p class="post-text">Amazing hackathon experience with Team Byte CodeX! 🚀 #Coding #Innovation</p>
+                    </div>
+                    <div class="post-interactions">
+                        <button class="interaction-btn like-btn">
+                            <i class="far fa-heart"></i>
+                            <span>123 Likes</span>
+                        </button>
+                        <button class="interaction-btn comment-btn">
+                            <i class="far fa-comment"></i>
+                            <span>Comments</span>
+                        </button>
+                        <button class="interaction-btn share-btn">
+                            <i class="far fa-share-square"></i>
+                            <span>Share</span>
+                        </button>
+                    </div>
+                    <div class="comments-section">
+                        <div class="comment">
+                            <img src="My Portfolio/user1.jpg" alt="User" class="comment-pic">
+                            <div class="comment-content">
+                                <h4>John Doe</h4>
+                                <p>Great work! Keep it up! 👏</p>
+                            </div>
+                        </div>
+                        <!-- More comments -->
+                    </div>
+                </article>
+                <!-- More posts -->
+            </div>
+        </div>
+    </main>
+
+    <script src="album-script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Kumar Jha | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo-container">
+                <img src="My Portfolio/logo.jpg" alt="Logo" class="logo">
+                <a href="#" class="site-title">My Portfolio Website</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#image-slider-section" class="nav-link">Gallery</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="album.html" class="nav-link" target="_blank">Album</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="resume-btn">
+                    <a href="My Portfolio/Saurabh_Resume.pdf" class="btn primary" download>
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </li>
+                <li class="theme-toggle-container">
+                    <div class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="typewriter">Saurabh Kumar Jha</h1>
+                <h2>Tech Enthusiast | Future Developer | Learner for Life</h2>
+                <p>BTech in Computer Science and Engineering at COER University, Roorkee</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary">Get in Touch</a>
+                    <a href="#projects" class="btn secondary">View Projects</a>
+                </div><br>
+                <br>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image-container">
+                    <img src="My Portfolio/img2.jpg" alt="Saurabh Kumar Jha" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am a passionate 1st-year BTech Computer Science and Engineering student at COER University, Roorkee. My journey in technology is driven by curiosity and a strong desire to build real-world solutions. I believe in continuous learning and constantly upgrading my skills through projects, hackathons, and community engagement.</p>
+                <p>My approach to technology is both systematic and creative, always looking for innovative ways to solve problems and create meaningful impact.</p>
+                <blockquote>"Learning never exhausts the mind" - Leonardo da Vinci</blockquote>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Image Slider Section -->
+     <section id="image-slider-section" class="image-slider-section">
+        <div class="container">
+            <h2 class="section-title">My Gallery</h2>
+            <div class="slider-container">
+                <div class="slider-track">
+                    <div class="slider-item">
+                        <img src="My Portfolio/img10.jpg" alt="Project Demo">
+                        <div class="slider-caption">
+                            <h3>Imaginations</h3>
+                            <p>Life is too short soo chase your Dreams</p>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <img src="My Portfolio/lap.img1.jpg" alt="Project Demo">
+                        <div class="slider-caption">
+                            <h3>Never Stop</h3>
+                            <p>Until You Complete Your Works</p>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <img src="My Portfolio/img6.jpg" alt="Project Demo">
+                        <div class="slider-caption">
+                            <h3> Bindaas </h3>
+                            <p>Moods Depend on your thoughts</p>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <img src="My Portfolio/grpimg1.jpg" alt="Project Demo">
+                        <div class="slider-caption">
+                            <h3>Hackathons Time</h3>
+                            <p>Team Byte CodeX</p>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <img src="My Portfolio/img5.jpg" alt="Project Demo">
+                        <div class="slider-caption">
+                            <h3>UI/UX Design</h3>
+                            <p>Creative interface design</p>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <img src="My Portfolio/img4.jpg" alt="Project Demo">
+                        <div class="slider-caption">
+                            <h3>Night Shots</h3>
+                            <p>After Zion fest..! My clg Night view</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="slider-dots">
+                    <!-- Dots will be added dynamically via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">HTML</div>
+                        <div class="skill-card">CSS</div>
+                        <div class="skill-card">JavaScript</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">Python</div>
+                        <div class="skill-card">Java</div>
+                        <div class="skill-card">C++</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">Machine Learning</div>
+                        <div class="skill-card">Data Analysis</div>
+                        <div class="skill-card">Git</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="achievements-grid">
+                <!-- Certificates Gallery -->
+                <div class="certificates-container">
+                    <h3 class="section-subtitle">Certifications</h3>
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <img src="My Portfolio/lap.img1.jpg" alt="Certificate 1">
+                            <div class="cert-info">
+                                <h4>Web Development</h4>
+                                <p>Complete Frontend Development Course</p>
+                                <a href="#" class="btn secondary view-cert">View Certificate</a>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <img src="My Portfolio/img10.jpg" alt="Certificate 2">
+                            <div class="cert-info">
+                                <h4>Python Programming</h4>
+                                <p>Advanced Python & Machine Learning</p>
+                                <a href="#" class="btn secondary view-cert">View Certificate</a>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <img src="My Portfolio/img6.jpg" alt="Certificate 3">
+                            <div class="cert-info">
+                                <h4>Java Development</h4>
+                                <p>Core Java & Application Development</p>
+                                <a href="#" class="btn secondary view-cert">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awards Timeline -->
+                <div class="awards-timeline">
+                    <h3 class="section-subtitle">Awards & Recognition</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-image">
+                                    <img src="My Portfolio/grpimg1.jpg" alt="Hackathon">
+                                </div>
+                                <h4>Hackathon Winner</h4>
+                                <p>First place in college hackathon with Team Byte CodeX</p>
+                                <span class="date">March 2024</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-image">
+                                    <img src="My Portfolio/img4.jpg" alt="Competition">
+                                </div>
+                                <h4>Coding Competition</h4>
+                                <p>Runner-up in inter-college coding competition</p>
+                                <span class="date">February 2024</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-image">
+                                    <img src="My Portfolio/img5.jpg" alt="Workshop">
+                                </div>
+                                <h4>Technical Workshop</h4>
+                                <p>Conducted workshop on Web Development</p>
+                                <span class="date">January 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project cards will be added here -->
+                <div class="project-card">
+                    <h3>Coming Soon</h3>
+                    <p>Exciting projects are in development!</p>
+                    <div class="project-tags">
+                        <span>Web Development</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/saurabhjha001" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/saurabh-kumar-jha-282399328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/i_skj.official?igsh=bHJpenVlMnhvZDE2" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:saurabhkumarjha011@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Made by Saurabh Jha || All Rights reserved</p>
+            <button id="scroll-top" class="scroll-top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
